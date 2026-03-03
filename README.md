@@ -1,135 +1,149 @@
-🚀 WhattaTransmissor (WTTool)
+# 🚀 WhattaTransmissor (WTTool)
 
 Sistema profissional de Lista de Transmissão para WhatsApp, com atualização automática integrada.
 
 Desenvolvido para usuários com baixo nível técnico, oferecendo uma interface simples, intuitiva e segura.
 
-✅ Funcionalidades
+---
 
-📄 Envio em massa via planilha (.xlsx)
+## ✅ Funcionalidades
 
-✍ Personalização automática com {NOME}
+- 📄 Envio em massa via planilha (.xlsx)
+- ✍ Personalização automática com `{NOME}`
+- 🖼 Envio opcional de mídia
+- ⏱ Controle de intervalo entre mensagens
+- 🔄 Atualização automática do aplicativo
+- 🔒 Execução 100% local (sem servidor externo)
 
-🖼 Envio opcional de mídia
+---
 
-⏱ Controle de intervalo entre mensagens
+## 💻 Requisitos do Sistema
 
-🔄 Atualização automática do aplicativo
+- Windows 10 ou superior
+- Conexão com internet
+- WhatsApp ativo no celular
 
-🔒 Execução local (sem servidor externo)
+**Não é necessário instalar:**
 
-💻 Requisitos do Sistema
+- Node.js  
+- NPM  
+- Git  
+- Dependências adicionais  
 
-Windows 10 ou superior
+---
 
-Conexão com internet
+## 📥 Como Instalar
 
-WhatsApp ativo no celular
+1. Acesse a página de Releases:  
+   👉 https://github.com/Ninjaturtle26/WhattaTransmissor/releases
 
-Não é necessário instalar:
-
-Node.js
-
-NPM
-
-Git
-
-Dependências adicionais
-
-📥 Como Instalar
-
-Acesse a página de Releases:
-👉 https://github.com/Ninjaturtle26/WhattaTransmissor/releases
-
-Baixe o arquivo:
+2. Baixe o arquivo:
 
 WhattaTransmissor-Setup-X.X.X.exe
 
-Execute o instalador
+3. Execute o instalador  
+4. Siga os passos da instalação  
+5. Abra o aplicativo  
 
-Siga os passos da instalação
+---
 
-Abra o aplicativo
+## 🔑 Primeira Execução
 
-🔑 Primeira Execução
+1. O Google Chrome será aberto automaticamente.
+2. Escaneie o QR Code com seu WhatsApp.
+3. Aguarde a conexão.
+4. O painel será exibido automaticamente.
 
-O Google Chrome será aberto automaticamente.
+---
 
-Escaneie o QR Code com seu WhatsApp.
-
-Aguarde a conexão.
-
-O painel será exibido automaticamente.
-
-📄 Formato da Planilha
+## 📄 Formato da Planilha
 
 A planilha deve conter as seguintes colunas:
 
-Nome	Telefone	Mensagem (opcional)	Midia (opcional)
-Observações:
+| Nome | Telefone | Mensagem (opcional) | Midia (opcional) |
+|------|----------|--------------------|------------------|
 
-Telefone deve conter DDD + número
+### 📌 Observações
+
+- O telefone deve conter DDD + número.
+- Exemplo:
 
 Exemplo: 553499999999
 
-Mensagem pode usar {NOME} para personalização
+- A coluna **Mensagem** é opcional.
+- A coluna **Midia** é opcional.
 
-✍ Exemplo de Mensagem
+---
+
+## ✍ Exemplo de Mensagem
 Olá {NOME}, tudo bem?
 
-Estamos entrando em contato para informar sobre nossa nova campanha.
-🖼 Envio de Mídia
+O sistema substituirá automaticamente `{NOME}` pelo nome da planilha.
+
+---
+
+## 🖼 Envio de Mídia
 
 Você pode:
 
-Definir mídia individual por contato na planilha
-OU
+- Definir mídia individual por contato na planilha  
+OU  
+- Enviar uma mídia única para todos os contatos  
 
-Enviar uma mídia única para todos os contatos
+> ⚠ Observação: O envio de mídia depende da estabilidade da versão do WhatsApp Web.
 
-Observação: O envio de mídia depende da estabilidade da versão do WhatsApp Web.
+---
 
-⏱ Intervalo Entre Mensagens
+## ⏱ Intervalo Entre Mensagens
 
 Recomendado:
 
 2000 ms ou superior
 
-Isso reduz risco de bloqueios.
+Intervalos menores podem aumentar o risco de bloqueio pelo WhatsApp.
 
-🔄 Atualizações Automáticas
+---
+
+## 🔄 Atualizações Automáticas
 
 O aplicativo verifica automaticamente novas versões.
 
 Se houver atualização disponível:
 
-Será exibida uma notificação
-
-Clique em “Atualizar agora”
-
-O aplicativo reiniciará atualizado
+1. Será exibida uma notificação.
+2. Clique em **Atualizar agora**.
+3. O aplicativo reiniciará atualizado.
 
 Não é necessário reinstalar manualmente.
 
-📂 Armazenamento Local
+---
 
-Os arquivos temporários e autenticação ficam armazenados em:
+## 📂 Armazenamento Local
+
+Arquivos temporários e autenticação ficam armazenados em:
 
 C:\Users\SEU_USUARIO\AppData\Roaming\WhattaTransmissor
-⚠ Avisos Importantes
 
-Use com responsabilidade.
 
-Evite intervalos muito curtos.
+---
 
-Respeite as políticas do WhatsApp.
+## ⚠ Avisos Importantes
 
-🛠 Versão Atual
+- Use com responsabilidade.
+- Evite intervalos muito curtos.
+- Respeite as políticas do WhatsApp.
+- O uso inadequado pode resultar em bloqueio da conta.
+
+---
+
+## 🛠 Versão Atual
 
 Consulte sempre a aba Releases:
 
 👉 https://github.com/Ninjaturtle26/WhattaTransmissor/releases
 
-📌 Licença
+---
+
+## 📌 Licença
 
 Uso privado e controlado.
