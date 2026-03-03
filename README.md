@@ -2,8 +2,6 @@
 
 Sistema profissional de Lista de Transmissão para WhatsApp, com atualização automática integrada.
 
-Desenvolvido para usuários com baixo nível técnico, oferecendo uma interface simples, intuitiva e segura.
-
 ---
 
 ## ✅ Funcionalidades
